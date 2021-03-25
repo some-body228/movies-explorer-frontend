@@ -1,0 +1,16 @@
+.navBar{
+    background-color: #F5F5F5;
+    height: 66px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.navBar__link{
+    font-size: 13px;
+    line-height: 16px;
+    color: black;
+    margin-left: 40px;
+}

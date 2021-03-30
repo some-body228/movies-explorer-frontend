@@ -4,7 +4,7 @@
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    padding: 18px 10% 0;
+    padding: 18px 5% 0;
 }
 .header__logo{
     margin: auto;
@@ -25,6 +25,10 @@
     line-height: 16px;
     color: white;
     margin-right: 30px;
+    transition: linear opacity .2s;
+}
+.header__button-signin:hover{
+    opacity: .7;
 }
 .header__button-signup{
     background-color: #2BE080;
@@ -34,4 +38,8 @@
     font-size: 12px;
     line-height: 16px;
     padding: 8px 20px;
+    transition: linear opacity .2s;
+}
+.header__button-signup:hover{
+    opacity: .7;
 }

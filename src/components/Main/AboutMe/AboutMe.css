@@ -2,7 +2,7 @@
 .AboutMe{
     margin: 0 auto;
     padding: 100px 10%;
-    background-color: #F5F5F5;
+    background-color: white;
 }
 .about__title{
     font-style: normal;
@@ -63,4 +63,19 @@ font-weight: 500;
 font-size: 14px;
 line-height: 17px;
     margin-right: 20px;
+    cursor: pointer;
+    transition: linear opacity .2s;
+    color: black;
+    text-decoration: none;
+}
+.about__media-item:hover{
+    opacity: .7;
+}
+
+
+@media screen and (max-width: 528px){
+    .about__avatar{
+        float: left;
+    }
+
 }

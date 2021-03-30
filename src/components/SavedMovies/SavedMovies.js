@@ -1,8 +1,9 @@
+import "./SavedMovies.css"
 import MoviesCardList from "./MoviesCardList/MoviesCardList"
 import Header from "./Header/Header"
 import SearchForm from "./SearchForm/SearchForm"
 import Footer from "../Footer/Footer"
-function Movies(){
+function SavedMovies(){
     return(
         <>
             <Header />
@@ -12,4 +13,4 @@ function Movies(){
         </>
     )
 }
-export default Movies
+export default SavedMovies 

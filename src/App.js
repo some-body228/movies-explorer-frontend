@@ -1,6 +1,11 @@
 import './App.css';
 import Main from "./components/Main/Main"
 import Movies from "./components/Movies/Movies"
+import Register from "./components/Register/Register"
+import Login from "./components/Login/Login"
+import Profile from "./components/Profile/Profile"
+import SavedMovies from "./components/SavedMovies/SavedMovies"
+import NotFoundPage from "./components/NotFoundPage/NotFoundPage"
 import { Switch, Route, useHistory } from "react-router-dom";
 
 
@@ -15,20 +20,19 @@ function App() {
       <Movies />
       </Route>
       <Route path="/saved-movies">
-      <p>3</p>
-
+      <SavedMovies />
       </Route>
       <Route path="/profile">
-      <p>4</p>
-
+      <Profile />
       </Route>
       <Route path="/signin">
-      <p>5</p>
-
+        <Register />
       </Route>
       <Route path="/signup">
-      <p>6</p>
-
+      <Login />
+      </Route>
+      <Route path="*">
+        <NotFoundPage />
       </Route>
     </Switch>
   );

@@ -3,4 +3,26 @@
     grid-template-columns: 1fr 1fr 1fr;
     list-style-type: none;
     grid-gap: 24px;
+    padding: 100px 70px 50px;
+    margin: 0;
+}
+
+.card-list__button-container {
+    padding: 50px 70px 80px;
+}
+
+.card-list__button {
+    margin: 0  auto;
+    text-align: center;
+    display: block;
+    width: 320px;
+    height: 36px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: linear opacity .2s;
+    border-radius: 6px;
+}
+.card-list__button:hover{
+    opacity: .7;
 }

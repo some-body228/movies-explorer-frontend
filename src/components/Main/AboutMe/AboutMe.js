@@ -2,7 +2,7 @@ import "./AboutMe.css"
 import avatar from "../../../images/avatar.jpg"
 function AboutMe(){
  return(
-    <section className="AboutMe">
+    <section className="AboutMe" id="aboutMe">
     <h3 className="about__title">Студент</h3>    
     <div className="about__container">
         <div className="about__info">
@@ -11,8 +11,8 @@ function AboutMe(){
             <p className="about__bio">Я родился и живу в Москве, закончил факультет экономики СГУ. У меня есть жена 
 и дочь. Я люблю слушать музыку, а ещё увлекаюсь бегом. Недавно начал кодить. С 2015 года работал в компании «СКБ Контур». После того, как прошёл курс по веб-разработке, начал заниматься фриланс-заказами и ушёл с постоянной работы.</p>
             <ul className="about__media">
-                <li className="about__media-item"><a>Facebook</a></li>
-                <li className="about__media-item"><a>Github</a></li>
+                <li className="about__media-item"><a style={{"color": "black", "text-decoration": "none"}} href="https://ru-ru.facebook.com/">Facebook</a></li>
+                <li className="about__media-item"><a style={{"color": "black", "text-decoration": "none"}} href="https://github.com/some-body228">Github</a></li>
             </ul>
         </div>
         <img src={avatar} alt="avatar" className="about__avatar"/>

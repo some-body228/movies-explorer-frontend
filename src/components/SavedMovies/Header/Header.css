@@ -27,10 +27,6 @@
         margin-right: 20px;
         text-decoration: none;
         color: black;
-        transition: opacity linear .2s;
-    }
-    .header__button-films:hover{
-        opacity: .7;
     }
     .header__button-films_selected{
         font-weight: 501;
@@ -50,11 +46,6 @@
         line-height: 16px;
         text-decoration: none;
         color: black;
-        transition: opacity linear .2s;
-
-    }
-    .header__button-account:hover{
-        opacity: .7;
     }
     .header__guard {
     width: 44px;

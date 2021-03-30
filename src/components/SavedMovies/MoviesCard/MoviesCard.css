@@ -1,0 +1,20 @@
+  @import url(../../Movies/MoviesCard/MoviesCard.css);
+
+    .delete {
+    width: 14px;
+    height: 12px;
+    margin: 0 24px 0 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 0;
+    outline: none;
+    display: none;
+    transition: linear opacity .2s;
+    }
+    .delete:hover{
+      opacity: .7;
+    }
+    .movie:hover  .delete{
+      display: block;
+    }

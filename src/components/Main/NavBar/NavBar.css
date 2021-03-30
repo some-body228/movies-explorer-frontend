@@ -13,4 +13,19 @@
     line-height: 16px;
     color: black;
     margin-left: 40px;
+    transition: linear opacity .2s;
+} 
+.navBar__link:hover{
+    opacity: .7;
+}
+
+.navBar__link:first-of-type{
+    margin: 0;
+}
+
+@media screen and (max-width: 768px){
+    .navBar__link{
+        font-size: 11px;
+    }
+
 }

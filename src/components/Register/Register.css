@@ -90,3 +90,35 @@ background-color: white;
 .register__signin-btn:hover{
     opacity: .7;
 }
+
+@media screen and (max-width: 768px){
+    .register {
+        padding: 232px 0;
+    }
+
+    .register__title {
+        margin: 40px 0 40px;
+    }
+
+}
+
+@media screen and (max-width: 450px){
+    .register {
+        padding: 56px 30px 30px;
+    }
+
+    .register__title {
+        margin: 50px 0 80px;
+        text-align: center;
+    }
+
+    .register__header {
+        display: flex;
+        justify-content: center;
+    }
+
+    .register__signup {
+        margin: 216px 0 14px;
+    } 
+
+}

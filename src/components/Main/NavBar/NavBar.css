@@ -25,7 +25,14 @@
 
 @media screen and (max-width: 768px){
     .navBar__link{
+        font-size: 13px;
+    }
+
+}
+@media screen and (max-width: 520px){
+    .navBar__link{
         font-size: 11px;
+        margin-left: 24px;
     }
 
 }

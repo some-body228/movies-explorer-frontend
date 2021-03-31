@@ -119,8 +119,7 @@
         display: none;
     }
     
-    .header__button-container-popup {
-    }
+    
     .header__button-account {
     display: block;
     margin: 612px auto 0;
@@ -136,4 +135,16 @@
     .header__button-films_popup:last-of-type{
         margin-bottom: 612px;
     }
+    .header_type_movie {
+        align-items: center;
+        padding: 14px 5% 0;;
     }
+    }
+
+@media screen and (max-width: 400px){
+    .header__button-container-popup {
+        width: 100vw;
+    }
+
+}
+    

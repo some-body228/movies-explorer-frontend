@@ -1,7 +1,9 @@
 import "./Register.css"
 import logo from '../../images/logo.png';
+import { useHistory } from 'react-router-dom';
 
 function Register(){
+    const history = useHistory()
     return(
         <section className="register">
             <header className="register__header">
@@ -18,7 +20,7 @@ function Register(){
                 <label className="register__caption">пароль</label>
                 <input type="password" className="register__input" required></input>
                 <button type="submit" className="register__signup">Зарегистрироваться</button>
-                <p className="register__signin-caption">Уже зарегистрированы?<button type="button" className="register__signin-btn">Войти</button></p>
+                <p className="register__signin-caption">Уже зарегистрированы?<button type="button" className="register__signin-btn"  onClick={()=>{history.push("/signup")}}>Войти</button></p>
             </form>
         </section>
     )

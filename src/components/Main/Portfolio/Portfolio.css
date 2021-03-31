@@ -13,14 +13,20 @@
     padding: 0;
     margin: 0;
 }
+
 .portfolio__item-container {
     display: flex;
     justify-content: space-between;
+    border-bottom: #E8E8E8 1px solid;
+
+}
+.portfolio__item-container:last-of-type{
+    border:none;
 }
 .portfolio__item {
     font-size: 30px;
     line-height: 50px;
-    margin: 0 0 40px;
+    margin: 20px 0 40px;
 }
 .portfolio__link {
     margin-top: 20px;
@@ -29,4 +35,19 @@
 }
 .portfolio__link:hover{
     opacity: .7;
+}
+@media screen and (max-width: 800px){
+    .portfolio__item{
+        font-size: 28px;
+line-height: 50px;
+    }
+
+}
+@media screen and (max-width: 528px){
+
+    .portfolio__item{
+        font-size: 18px;
+        line-height: 28px;
+        letter-spacing: -0.04em;
+    }
 }

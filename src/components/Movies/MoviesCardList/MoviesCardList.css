@@ -3,8 +3,10 @@
     grid-template-columns: 1fr 1fr 1fr;
     list-style-type: none;
     grid-gap: 24px;
-    padding: 100px 70px 50px;
+    padding: 100px 0 50px;
+    margin: 0 70px;
     margin: 0;
+    border-top: #E8E8E8 1px solid;
 }
 
 .card-list__button-container {
@@ -23,6 +25,37 @@
     transition: linear opacity .2s;
     border-radius: 6px;
 }
+
 .card-list__button:hover{
     opacity: .7;
+}
+
+@media screen and (max-width: 768px){
+
+    .card-list{
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 30px;
+        padding: 72px 0 41px;
+        margin: 0 30px;
+
+    }
+
+    .card-list__button-container {
+        padding: 61px 0 89px;;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 400px){
+
+    .card-list__button{
+        width: 66%;
+    }
+    .card-list{
+        grid-template-columns: 1fr;
+        grid-gap: 14px;
+        padding: 40px 0 41px;
+        margin: 0 10px;
+
+    }
 }

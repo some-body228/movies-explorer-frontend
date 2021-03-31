@@ -1,7 +1,7 @@
 .about{
  width: 80%;
  margin: 0 auto;
- padding: 110px 0;
+ padding: 110px 0 130px;
 }
 .about__title{
     font-style: normal;
@@ -71,7 +71,9 @@ margin: 0;
 }
 
 @media screen and (max-width: 768px){
-
+    .about{
+        padding: 90px 0 110px;
+       }
     .about__paragraph {
         font-size: 12px;
     }
@@ -82,7 +84,7 @@ margin: 0;
 
 @media screen and (max-width: 520px){
     .about{
-        padding: 70px 0;
+        padding: 70px 0 100px;
         width: 88%;
        }
 

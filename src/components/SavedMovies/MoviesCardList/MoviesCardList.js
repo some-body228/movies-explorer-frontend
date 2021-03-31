@@ -9,9 +9,6 @@ function MoviesCardList(){
                return  <MoviesCard {...el} />
             })}
         </ul>
-        <div className="card-list__button-container">
-            <button className="card-list__button" type="button">Ещё</button>
-        </div>
         </>
     )
 }

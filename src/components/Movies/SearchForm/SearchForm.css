@@ -1,5 +1,5 @@
 .search-form {
-    padding: 60px 70px 81px;
+    padding: 81px 8% 61px;
 }
 
 .search-form__container {
@@ -55,3 +55,11 @@
     margin: 0 0 0 12px;
 }
 
+
+@media screen and (max-width: 768px) {
+    
+    .search-form {
+        padding: 81px 5% 61px;
+    }
+
+}

@@ -13,9 +13,10 @@
     letter-spacing: -0.04em;
     color: white;
     margin: 0 auto;
-    padding: 184px 0 290px;
+    padding: 184px 10px 290px;
     max-width: 730px;
     font-weight: 400;
+    
 }
 
 
@@ -29,7 +30,7 @@
         padding-bottom: 66px;
     }
     .promo__title{
-        padding: 0;
+        padding: 0 10px;
         margin: 66px 0 0;
     }
 
@@ -39,7 +40,8 @@
 @media screen and (max-width: 520px){
 
     .promo{
-        height: 636px;
+        height: 570px;
+        background-size: 248px;
     }
     .promo__title{
 font-size: 31px;
@@ -48,7 +50,7 @@ font-weight: 400;
 line-height: 39px;
 letter-spacing: -0.04em;
 text-align: center;
-
+        padding: 0 10px;
     }
 
 

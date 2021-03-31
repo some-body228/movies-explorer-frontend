@@ -16,16 +16,16 @@ return (
 <div className="header__popup-shadow" style={{"display": `${burger? "block": "none"}`}}></div>
 <div className="header__button-container header__button-container_movies" >
 <a href="" className="header__button-films header__button-films_selected" onClick={()=>{history.push("/movies")}}>Фильмы</a>
-<a href="" className="header__button-films">Сохраненые фильмы</a>
-<a href="" className="header__button-account">Аккаунт</a>
+<a href="" className="header__button-films" onClick={()=>{history.push("/saved-movies")}}>Сохраненые фильмы</a>
+<a href="" className="header__button-account" onClick={()=>{history.push("/profile")}}>Аккаунт</a>
 </div>
 <button type="button" className="header__guard" onClick={()=>{setburger(!burger)}}></button>
 </header>
 <div className="header__button-container-popup" style={{"display": `${burger? "block": "none"}`}}>
-<a href="" className="header__button-films header__button-films_popup">Главная</a>
+<a href="" className="header__button-films header__button-films_popup" onClick={()=>{history.push("/")}}>Главная</a>
 <a href="" className="header__button-films header__button-films_popup header__button-films_selected-popup" onClick={()=>{history.push("/movies")}}>Фильмы</a>
-<a href="" className="header__button-films header__button-films_popup">Сохраненые фильмы</a>
-<a href="" className="header__button-account ">Аккаунт</a>
+<a href="" className="header__button-films header__button-films_popup" onClick={()=>{history.push("/saved-movies")}}>Сохраненые фильмы</a>
+<a href="" className="header__button-account " onClick={()=>{history.push("/profile")}}>Аккаунт</a>
 <button className="header__exit-button" onClick={()=>{setburger(!burger)}}></button>
 </div>
 </>

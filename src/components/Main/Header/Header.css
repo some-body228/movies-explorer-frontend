@@ -26,6 +26,7 @@
     color: white;
     margin-right: 30px;
     transition: linear opacity .2s;
+    cursor: pointer;
 }
 .header__button-signin:hover{
     opacity: .7;
@@ -39,6 +40,8 @@
     line-height: 16px;
     padding: 8px 20px;
     transition: linear opacity .2s;
+    cursor: pointer;
+
 }
 .header__button-signup:hover{
     opacity: .7;

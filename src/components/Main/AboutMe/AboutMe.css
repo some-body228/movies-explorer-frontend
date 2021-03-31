@@ -26,6 +26,7 @@
 }
 .about__info{
     max-width: 600px;
+    padding-right: 50px;
 }
 .about__name{
     margin: 66px 0 0 ;
@@ -72,10 +73,57 @@ line-height: 17px;
     opacity: .7;
 }
 
-
+@media screen and (max-width: 800px){
+    .about__media{
+        margin-top: 87px;
+    }
+    .AboutMe{
+        padding: 90px 50px;
+        background-color: white;
+    }
+    .about__сaption{
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .about__name{
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .about__bio{
+        font-size: 12px;
+line-height: 18px;
+    }
+}
 @media screen and (max-width: 528px){
+
+    .AboutMe{
+        padding: 70px 14px;
+    }
+    .about__bio{
+        font-size: 12px;
+        line-height: 18px;
+    }
     .about__avatar{
+        width: 100%;
+        order: 1;
         float: left;
+        margin-bottom: 0;
+    }
+    .about__name{
+        margin-top: 40px;
+        font-size: 30px;
+line-height: 36px;
+    }
+    .about__сaption{
+        font-size: 11px;
+        line-height: 16px;
+    }
+    .about__bio{
+        font-size: 11px;
+        line-height: 16px;
+    }
+    .about__info{
+        order: 2;
     }
 
 }

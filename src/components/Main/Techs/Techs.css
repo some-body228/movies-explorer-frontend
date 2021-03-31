@@ -64,12 +64,19 @@ line-height: 15px;
 letter-spacing: -0.04em;
 }
 
-
-@media screen and (max-width: 520px){
+@media screen and (max-width: 800px){
     .techs {
-        padding: 100px 18px;
+        padding: 90px 50px;
     }
 
+}
+@media screen and (max-width: 520px){
+    .techs {
+        padding: 70px 14px;
+    }
+    .techs__subtitle{
+        margin-top: 60px;
+    }
     .techs__subtitle{ 
         font-size: 30px;
         line-height: 36px;
@@ -89,8 +96,8 @@ letter-spacing: -0.04em;
 
     .techs__skill-list{
         display: grid;
-        margin: auto;
-        grid-template-columns: 20% 1fr 15%;
+        margin: 50px auto 0;
+        grid-template-columns: 1fr 1fr ;
         grid-gap: 10px;
         justify-items: center;
         width: 178px;

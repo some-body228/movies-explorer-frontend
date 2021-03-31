@@ -110,8 +110,6 @@
         display: none;
     }
     
-    .header__button-container-popup {
-    }
     .header__button-account {
     display: block;
     margin: 612px auto 0;
@@ -123,8 +121,36 @@
     display: block;
     margin: 0  0 28px;
     text-align: center;
+    padding-bottom: 1px;
     } 
     .header__button-films_popup:last-of-type{
         margin-bottom: 612px;
     }
+    }
+
+    @media screen and (max-width: 400px){
+        .header__button-container-popup {
+            width: 100vw;
+        }
+
+        .header__button-container-popup {
+            padding-top: 144px;
+        }
+
+        .header__button-films {
+            margin: 0 0 24px;
+            font-weight: 500;
+            line-height: 22px;
+            letter-spacing: 0px;
+            text-align: center;
+            font-size: 18px;
+        }
+
+        .header__button-account {
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 16px;
+            letter-spacing: 0px;
+        }
+    
     }

@@ -1,7 +1,7 @@
 import React from 'react';
 import {  withRouter } from 'react-router-dom';
 import FilterCheckbox from "../FilterCheckbox/FilterCheckbox"
-import './SearchForm.css'
+import '../../Movies/SearchForm/SearchForm'
 
 
 function SearchForm () {
@@ -11,7 +11,7 @@ function SearchForm () {
             <section className="search-form">   
                 <div className="search-form__container">
                     <input type="text" name="search" placeholder="Фильм" className="search-form__input"></input>
-                    <button type="button" className="search-form__button">&gt;</button>
+                    <button type="button" className="search-form__button"></button>
                 </div>
                 <div className="search-form__short-film">
                     <FilterCheckbox/>

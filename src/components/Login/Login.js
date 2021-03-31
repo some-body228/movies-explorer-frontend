@@ -1,6 +1,8 @@
 import logo from '../../images/logo.png';
+import { useHistory } from 'react-router-dom';
 
 function Login(){
+    const history = useHistory()
     return(
         <section className="register">
             <header className="register__header">
@@ -15,7 +17,7 @@ function Login(){
                 <label className="register__caption">пароль</label>
                 <input type="password" className="register__input" required></input>
                 <button type="submit" className="register__signup">Войти</button>
-                <p className="register__signin-caption">Ещё не зарегистрированы?<button type="button" className="register__signin-btn">Регистрация</button></p>
+                <p className="register__signin-caption">Ещё не зарегистрированы?<button type="button" className="register__signin-btn" onClick={()=>{history.push("/signin")}}>Регистрация</button></p>
             </form>
         </section>
     )

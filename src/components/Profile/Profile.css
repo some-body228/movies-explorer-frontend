@@ -59,3 +59,29 @@ color: #EE3465;
 display: block;
 margin: 16px auto  0;
 }
+
+@media screen and (max-width: 800px){
+    .profile__title{
+        margin-top: 236px;
+    }
+    .profile__input-container{
+        margin-top: 96px;
+        }
+
+}
+
+@media screen and (max-width: 500px){
+    .profile{
+        padding: 0 30px;
+    }
+    .profile__title{
+        margin-top: 70px;
+    }
+    .profile__input-container{
+        margin-top: 80px;
+        }
+        .profile__redaction-btn{
+        margin: 379px auto 0;
+        }
+
+}

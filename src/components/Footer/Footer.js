@@ -9,13 +9,13 @@ function Footer() {
                 <p className="footer__year">&#169; 2021</p>
                     <nav>
                         <ul className="footer__links">
-                            <li>
+                            <li className="footer__link-center">
                                 <a href="https://yandex.ru/maps" className="footer__link" target="blank">Яндекс.Практикум</a>
                             </li>
-                            <li>
+                            <li className="footer__link-center">
                                 <a href="https://yandex.ru/maps" className="footer__link" target="blank">Github</a>
                             </li>
-                            <li>
+                            <li className="footer__link-center">
                                 <a href="https://yandex.ru/maps" className="footer__link" target="blank">Facebook</a>
                             </li>
                         </ul>

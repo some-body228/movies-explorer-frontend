@@ -10,7 +10,7 @@ function SearchForm () {
         <>
             <section className="search-form">   
                 <div className="search-form__container">
-                    <input type="text" name="search" placeholder="Фильм" className="search-form__input"></input>
+                    <input type="text" name="search" placeholder="Фильм" className="search-form__input" required></input>
                     <button type="button" className="search-form__button"></button>
                 </div>
                 <div className="search-form__short-film">

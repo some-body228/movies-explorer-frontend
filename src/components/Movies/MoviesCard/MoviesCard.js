@@ -1,6 +1,6 @@
 import './MoviesCard.css';
 import like from "../../../images/like.png"
-import film from "../../../images/film.png"
+import dislike from "../../../images/dislike.png"
 function MoviesCard(props) {
 
 return(
@@ -10,7 +10,7 @@ return(
     <div className="movie__name-container">
         <h3 className="movie__name">{props.name}</h3>
         <button type="button" className="like" >
-            <img src={like} alt="лайк"/>
+            <img src={props.isLiked? like: dislike} alt="лайк"/>
         </button>
 
     </div>

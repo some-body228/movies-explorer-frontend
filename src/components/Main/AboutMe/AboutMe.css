@@ -1,0 +1,131 @@
+
+.AboutMe{
+    margin: 0 auto;
+    padding: 100px 10%;
+    background-color: white;
+}
+.about__title{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 27px;
+    /* identical to box height */
+    letter-spacing: -0.04em;
+    border-bottom: 1px solid black;
+    padding-bottom: 23px;
+}
+.about__container{
+    display: flex;
+}
+.about__avatar{
+    margin-top: 66px;
+    width: 270px;
+    height: 327px;
+    border-radius: 10px;
+    margin-left: 50px;
+}
+.about__info{
+    max-width: 600px;
+}
+.about__name{
+    margin: 66px 0 0 ;
+    font-weight: normal;
+font-size: 50px;
+line-height: 58px;
+/* identical to box height, or 116% */
+
+letter-spacing: -0.04em;
+}
+.about__сaption{
+    font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 20px;
+margin-top: 18px;
+}
+.about__bio{
+    font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 22px;
+margin-top: 26px;
+}
+.about__media{
+    list-style-type: none;
+    margin: 100px 0 0;
+    padding: 0;
+}
+.about__media-item{
+    display: inline;
+    margin-top: auto;
+    font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+    margin-right: 20px;
+    cursor: pointer;
+    transition: linear opacity .2s;
+    color: black;
+    text-decoration: none;
+}
+.about__media-item:hover{
+    opacity: .7;
+}
+
+@media screen and (max-width: 800px){
+    .about__media{
+        margin-top: 87px;
+    }
+    .AboutMe{
+        padding: 90px 50px;
+        background-color: white;
+    }
+    .about__сaption{
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .about__name{
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .about__bio{
+        font-size: 12px;
+line-height: 18px;
+    }
+}
+@media screen and (max-width: 570px){
+    .about__container{
+        flex-wrap: wrap;
+    }
+    .AboutMe{
+        padding: 70px 14px;
+    }
+    .about__bio{
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .about__avatar{
+        width: 100%;
+        order: 1;
+        float: left;
+        margin-bottom: 0;
+        margin-left: 0;
+    }
+    .about__name{
+        margin-top: 40px;
+        font-size: 30px;
+line-height: 36px;
+    }
+    .about__сaption{
+        font-size: 11px;
+        line-height: 16px;
+    }
+    .about__bio{
+        font-size: 11px;
+        line-height: 16px;
+    }
+    .about__info{
+        order: 2;
+    }
+
+}

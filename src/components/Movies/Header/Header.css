@@ -70,6 +70,9 @@
     .header__guard:hover {
     opacity: 0.6;
     }
+    .header__guard_main{
+        background-color: #465DFF;
+    }
     .header__button-container-popup{
         display: none;
         position: fixed;
@@ -108,7 +111,10 @@
     .header__exit-button:hover{
         opacity: .8;
     }
-    
+    .header__guard_main{
+        background-color: #465DFF;
+        border: none;
+    }
     
     @media screen and (max-width: 768px){
     
@@ -122,7 +128,7 @@
     
     .header__button-account {
     display: block;
-    margin: 612px auto 0;
+    margin: 400px auto 0;
     text-align: center;
     width: 100px;
     }

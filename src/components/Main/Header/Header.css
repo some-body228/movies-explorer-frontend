@@ -46,3 +46,13 @@
 .header__button-signup:hover{
     opacity: .7;
 }
+.header_type_main{
+    background-color: #465DFF;
+    border: none;
+}
+.header__button-films_main{
+    background-color: #465DFF;
+}
+.header__button-account_main{
+    background-color: #2BE080;
+}

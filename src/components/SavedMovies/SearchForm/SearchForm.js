@@ -1,20 +1,20 @@
 import React from 'react';
 import {  withRouter } from 'react-router-dom';
 import FilterCheckbox from "../FilterCheckbox/FilterCheckbox"
-import '../../Movies/SearchForm/SearchForm'
+import './SearchForm.css'
 
 
-function SearchForm () {
+function SearchForm (props) {
     
     return(
         <>
             <section className="search-form">   
-                <div className="search-form__container">
-                    <input type="text" name="search" placeholder="Фильм" className="search-form__input"></input>
-                    <button type="button" className="search-form__button"></button>
-                </div>
+                <form className="search-form__container" onSubmit={props.onFindMovie}>
+                    <input type="text" name="find" placeholder="Фильм" className="search-form__input" required></input>
+                    <button type="submit" className="search-form__button" ></button>
+                </form>
                 <div className="search-form__short-film">
-                    <FilterCheckbox/>
+                    <FilterCheckbox setShort={props.setShort} short={props.short}/>
                     <p className="search-form__short-film-paragraph">Короткометражки</p>
                 </div>  
             </section>    

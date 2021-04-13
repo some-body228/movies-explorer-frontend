@@ -31,6 +31,13 @@ line-height: 13px;
 font-weight: normal;
 font-size: 11px;
 line-height: 13px;
+border: none;
+outline: none;
+text-align: end;
+}
+.profile__value:focus{
+border: none;
+outline: none;
 }
 .profile__redaction-btn{
     background-color: white;
@@ -42,6 +49,10 @@ line-height: 16px;
 cursor: pointer;
 display: block;
 margin: 220px auto 0;
+}
+.profile__redaction-btn_disabled{
+    color: gray;
+    cursor: auto;
 }
 .profile__exit-btn{
     background-color: white;

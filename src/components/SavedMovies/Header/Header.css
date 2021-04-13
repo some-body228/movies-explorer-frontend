@@ -46,6 +46,7 @@
         line-height: 16px;
         text-decoration: none;
         color: black;
+        border: none;
     }
     .header__guard {
     width: 44px;
@@ -99,6 +100,19 @@
     .header__exit-button:hover{
         opacity: .8;
     }
+    .header__guard_main{
+        background-color: #465DFF;
+        border: none;
+    }
+    .header_type_main{
+        background-color: #465DFF;
+    }
+    .header__button-films_main{
+        background-color: #465DFF;
+    }
+    .header__button-account_main{
+        background-color: #2BE080;
+    }
     
     
     @media screen and (max-width: 768px){
@@ -112,14 +126,14 @@
     
     .header__button-account {
     display: block;
-    margin: 612px auto 0;
+    margin: 500px auto 0;
     text-align: center;
     width: 100px;
     }
     .header__button-films {
     height: 30px;
     display: block;
-    margin: 0  0 28px;
+    margin: 0  auto 28px;
     text-align: center;
     padding-bottom: 1px;
     } 

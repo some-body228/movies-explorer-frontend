@@ -43,7 +43,6 @@ line-height: 17px;
 border: none;
 border-bottom: 1px solid #E8E8E8;
 padding: 5px 0 10px;
-margin-bottom: 24px;
 }
 .register__input:focus{
     outline: none;
@@ -51,6 +50,10 @@ margin-bottom: 24px;
     border-bottom: 1px solid #FF6838;
 
 }
+.register__input_invalid:focus{
+    border-bottom: 1px solid red;
+}
+
 .register__signup{
     margin: 134px 0 16px;
     height: 45px;
@@ -63,6 +66,13 @@ margin-bottom: 24px;
 }
 .register__signup:hover{
     opacity: .7;
+}
+.register__signup_disabled{
+    background-color: gray;
+    cursor:auto;
+}
+.register__signup_disabled:hover{
+    opacity: 1;
 }
 .register__signin-caption{
     font-size: 14px;
@@ -90,6 +100,21 @@ background-color: white;
 .register__signin-btn:hover{
     opacity: .7;
 }
+.register__valid-message{
+    font-weight: normal;
+font-size: 10px;
+line-height: 12px;
+
+color: #EE3465;
+margin-bottom: 24px;
+}
+.register__valid-message_succes{
+    color: green;
+}
+.register__valid-message_hidden{
+    visibility: hidden;
+}
+
 
 @media screen and (max-width: 768px){
     .register {

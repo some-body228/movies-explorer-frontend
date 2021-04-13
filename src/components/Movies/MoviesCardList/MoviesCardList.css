@@ -25,9 +25,15 @@
     transition: linear opacity .2s;
     border-radius: 6px;
 }
+.card-list__button_hidden{
+    display: none;
+}
 
 .card-list__button:hover{
     opacity: .7;
+}
+.card-list__not-found{
+    text-align: center;
 }
 
 @media screen and (max-width: 768px){
